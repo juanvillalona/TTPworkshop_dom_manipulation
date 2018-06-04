@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dom manipulation</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/main.js"></script>
+	<script src="js/keyListener.js"></script>
+</head>
+<body>
+	<form>
+		<!--All inputs have been given ID's so we can retrieve their input values from the js-->
+		<input type="text" name="fullname" id="userName">Username <br>
+		<input type="text" name="fullname" id="email">Email <br>
+		<input type="password" name="password" id="password">Password <br>
+		<button type="button" id="submitbutton" onclick="verify()">Submit</button>
+	</form>
+<!--Given an ID so that we can change the text through the js-->
+	<h1 id="verifySay">Please Enter Credentials</h1>
+</body>
+</html>
